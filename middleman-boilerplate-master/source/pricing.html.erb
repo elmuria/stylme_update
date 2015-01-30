@@ -6,7 +6,30 @@ title: Contact
 <div id="pricing" class="text-center">
   <div class="descendant">
     <h1>
-      Pricing:
+      Here are our Pricing:
     </h1>
-  </div>
+    <div class="container padded2 color-gray">
+      <div class="row">
+        <% data.pricings.each do |price| %>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="margin padded3 radius">
+              <h2>
+                <%= price.name %>
+              </h2>
+              <h3>
+                <%= price.price %>
+              </h3>
+              <h6>
+                <%= price.summary %>
+              </h6>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+
+
+
+    </div>
 </div>
+

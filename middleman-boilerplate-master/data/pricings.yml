@@ -1,0 +1,14 @@
+- name: Basic
+  image: some_product.png
+  summary: The <strong>Smartest</strong> Stylus.<br>Write no more typos..<strong>Features:</strong><br> - First feature - <br> - Second feature - <br> Third feature - <br>
+  price: 59€
+
+- name: Professional
+  image: some_product.png
+  summary: The <strong>Finest</strong> Stylus.<br>Write no more typos..<strong>Features:</strong><br> - First feature - <br> - Second feature - <br> Third feature - <br>
+  price: 99€
+
+- name: Unlimited
+  image: some_product.png
+  summary: The <strong>Bigest</strong> Stylus.<br>Write no more typos..<strong>Features:</strong><br> - First feature - <br> - Second feature - <br> Third feature - <br>
+  price: 199€

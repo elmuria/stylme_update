@@ -8,8 +8,21 @@
   padding-bottom: 8em;
 }
 .padded2 {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.padded3 {
+  padding: 6px;
+}
+.radius {
+  border-radius: 10px;
+}
+.color-gray{
+  color: $th-gray;
+}
+.margin {
+  margin: 5px;
+  background: white;
 }
 .bg-red {
   background: $red;
@@ -42,4 +55,11 @@
 .bg-lightpurp {
   background: $light_purpule;
   color: white;
+}
+.bg-lightgray {
+  background: $light_gray
+}
+.center-bg {
+  width: 450px;
+  margin: auto;
 }
