@@ -3,8 +3,8 @@
  * ------------------------------------- */
 // Google fonts
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-$base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Montserrat", "sans-serif";
+$base-font: "Gotham", "Open Sans", "Helvetica", "sans-serif";
+$header-font: "Gotham", "Montserrat", "sans-serif";
 
 // Local fonts (uncomment following lines)
 // @font-face {
@@ -16,7 +16,16 @@ $header-font: "Montserrat", "sans-serif";
 // }
 // $my-font: "Font Name";
 
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/GothamRounded-Medium.eot');
+  src: url('../fonts/gotham-rounded-medium.otf') format('truetype'),
+       url('../fonts/gotham-rounded-medium.woff') format('woff'),
+       url('../fonts/GothamRounded-Medium.eot?#iefix') format('embedded-opentype');
+}
+
 // Font-size and line-height
+$size2: 25px;
 $base-size: 16px;
 $base-height: 1.4;
 
@@ -30,6 +39,11 @@ $yellow: #FDB631;
 $orange: #E67E22;
 $green: #32B796;
 $purple: #6452BD;
+$gray: #BFBFBF;
+$th-gray: #384047;
+$th-gray2: #D4D9DD;
+$light_gray: rgba(191, 191, 191, 0.65);
+$light_purpule: #838CC7;
 
 // Gray scale
 $gray-darker:  lighten(#000, 13.5%); // #222

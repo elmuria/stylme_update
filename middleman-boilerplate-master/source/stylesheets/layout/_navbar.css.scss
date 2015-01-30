@@ -1,10 +1,10 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: black;
+$navbar-color: white;
 $navbar-hover-color: $yellow;
 $navbar-font-family: $header-font;
-$navbar-bg: white;
+$navbar-bg: $light_gray;
 
 /* -------------------------------------
  * Box model
@@ -19,7 +19,7 @@ $navbar-border-bottom-color: grey;
  * Navbar button
  * ------------------------------------- */
 $navbar-btn-height: 40px;
-$navbar-btn-bg: lightgrey;
+$navbar-btn-bg: $red;
 $navbar-btn-color: white;
 $navbar-btn-horizontal-padding: 10px;
 $navbar-btn-radius: 2px;
@@ -111,6 +111,7 @@ $navbar-profile-border-width: 2px;
   .navbar-nav > li > .dropdown-menu{
     border-radius: 0;
     margin-top: 10px;
+    background: $light_gray;
   }
 
   .navbar-nav > li > .dropdown-menu:before{

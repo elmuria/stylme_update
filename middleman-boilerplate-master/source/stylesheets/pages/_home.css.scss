@@ -1,0 +1,100 @@
+#banner {
+  background-image: url(../images/background.jpg);
+  color: white;
+  padding: 150px 0px;
+  background-size: cover;
+  height: 650px;
+}
+
+#banner h1 {
+  font-size: 50px;
+  color: white;
+  padding-left: 250px;
+  font-family: 'Gotham';
+}
+
+#banner p {
+  font-size: $size2;
+  font-weight: 100;
+  padding-left: 150px;
+  opacity:0.9;
+}
+
+#margin-l {
+  margin-left: 254px;
+}
+
+#contact {
+  background-image: url(../images/contact-bg.jpg);
+  color: white;
+  padding: 150px 0px;
+  background-size: cover;
+  height: 650px;
+  font-size: $size2;
+  font-weight: 100;
+}
+
+#pricing {
+  background-image: url(../images/pricing2.jpg);
+  color: white;
+  padding: 90px 0px;
+  background-size: cover;
+  height: 650px;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+
+$duration: 2s;
+$delay: 1s;
+
+$initial-top: -20px;
+$initial-opacity: 0;
+
+$final-opacity: 1;
+$final-top: 0;
+
+@keyframes fadeInHome {
+  0% {
+    opacity: $initial-opacity;
+    top: $initial-top;
+  }
+
+  100% {
+    opacity: $final-opacity;
+    top: $final-top;
+  }
+}
+
+@-webkit-keyframes fadeInHome {
+  0% {
+    opacity: $initial-opacity;
+    top: $initial-top;
+  }
+
+  100% {
+    opacity: $final-opacity;
+    top: $final-top;
+  }
+}
+
+@-moz-keyframes fadeInHome {
+  0% {
+    opacity: $initial-opacity;
+    top: $initial-top;
+  }
+
+  100% {
+    opacity: $final-opacity;
+    top: $final-top;
+  }
+}
+
+.descendant {
+  position: relative;
+  top: $initial-top;
+  opacity: $initial-opacity;
+  animation: fadeInHome $duration $delay ease forwards;
+  -webkit-animation: fadeInHome $duration $delay ease forwards;
+  -moz-animation: fadeInHome $duration $delay ease forwards;
+}

@@ -7,6 +7,10 @@
   padding-top: 8em;
   padding-bottom: 8em;
 }
+.padded2 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
 .bg-red {
   background: $red;
   color: white;
@@ -29,5 +33,13 @@
 }
 .bg-purple {
   background: $purple;
+  color: white;
+}
+.bg-th-gray {
+  background: $th-gray;
+  color: white;
+}
+.bg-lightpurp {
+  background: $light_purpule;
   color: white;
 }
